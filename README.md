@@ -29,7 +29,7 @@ The company that provides our data is MyAnimeList Co.Ltd which provides us with 
 
 - Eddy: 2nd year BA comp sci that loves isekai anime.
 - Justin: 3rd year Human Kinetics student that loves anime in general and is interested in the world of coding.
-- Person 3: one sentence about you!
+- Tanay: 2nd year Bsc Comp sci student who loves all sorts of anime and manga as a medium of art and entertainment!
 
 ## Images
 
