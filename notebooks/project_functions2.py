@@ -17,12 +17,8 @@ def load_and_process(data):
     .pipe(lambda x: x.loc[x['Completed'] > 0])
     .assign(Score = df.Score.astype('float64'))
     .assign(Popularity = df.Popularity.astype('int64'))
+    .assign(Ranked = df.Ranked.astype('int64'))
     )
-    # remove animes that nobody has ever fully completed and convert score and popularity to numerical types
-
-    print(df2.head())
+    # remove animes that nobody has ever fully completed and convert score, ranked and popularity to numerical types
 
     return df2
-
-df3 = pd.read_csv('../data/raw/anime.csv')
-print(df3.head())
