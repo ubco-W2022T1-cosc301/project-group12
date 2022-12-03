@@ -1,0 +1,10 @@
+# Introduction
+
+All three of us watch anime often and are generally curious about what animes are the most popular and highest rated. Some interesting points we considered looking into include:
+ - If there is any correlation between the source material of an anime (light novel, manga, original) and it's rating and popularity and also which studios have the most popular and highest rated animes.
+ - Correlation between media type (tv/movie/ova), number of episodes, and date of release to the popularity of the anime.
+- Measure and compare relationship between number of episodes the show has and how highly rated the show is, as well as see how the other variables are impacted by number of episodes.
+The main goal of our analytics project is to satisfy our curiousity, and to also see if there are any trends that an anime studio could use when deciding an anime to produce next in order to ensure success. It would also be cool to have this data shown in a dashboard for other people to access and browse.
+
+
+The company that provides our data is MyAnimeList Co.Ltd which provides us with data that shows user review scores, genres, popularity ratings(views, ratings out of 10), media type, origin of adaptation, premiere date, and anime studios  among other statistics collected in 2020. The purpose of our dataset is for fun and public interest, as a lot of people enjoy looking at popular anime lists to decide what to watch next and see how their favourite anime compares to other animes. It also helps predict which animes will be the most popular each season (Spring, Summer, Fall, Winter) and also provides the general public with extensive information on each anime provided in the dataset. The data was originally compiled on MyAnimeList's website, with statistics such as premiere date and genre being provided by the site itself, and ratings and reviews provided by the site's users. The data was then put into our dataset u
