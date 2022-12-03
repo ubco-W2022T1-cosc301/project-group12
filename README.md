@@ -15,7 +15,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 All three of us watch anime often and are generally curious about what animes are the most popular and highest rated. Some interesting points we considered looking into include:
  - If there is any correlation between the source material of an anime (light novel, manga, original) and it's rating and popularity and also which studios have the most popular and highest rated animes.
  - Correlation between media type (tv/movie/ova), number of episodes, and date of release to the popularity of the anime.
-- Measure and compare relationship between number of episodes the show has and how highly rated the show is, as well as which genre of anime is most/least highly rated.
+- Measure and compare relationship between number of episodes the show has and how highly rated the show is, as well as see how the other variables are impacted by number of episodes.
 The main goal of our analytics project is to satisfy our curiousity, and to also see if there are any trends that an anime studio could use when deciding an anime to produce next in order to ensure success. It would also be cool to have this data shown in a dashboard for other people to access and browse.
 ## Describe your dataset in about 150-200 words
 
