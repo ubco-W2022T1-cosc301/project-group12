@@ -18,11 +18,13 @@ ___
 >Interesting to note here is that there's a negative correlation between popularity and the total amount of anime completions. As expected though, the more popular an anime is, the more people plan to watch it, and popular animes correlate somewhat with high scores. Funnily enough, there is a slight correlation between how long an anime is and how many people have it on hold or have dropped it (presumably because it was too long).
 
 ![AnimePopByType](images/justineda2.PNG)
+
 **EDA Fig. 2: A bar chart of the total amount of animes per type.**
 
 >The countplot above shows the amount of anime produced for each category. TV has by far the most amount of shows, with OVAs and movies in second and third, respectively. TV being in the lead makes sense as when one thinks of an anime, they would most likely think of an episodic TV one. 
 
 ![AnimeAmtByRating](images/EddyAnimeAmounts.png)
+
 **EDA Fig. 3: A bar chart of the total amount of animes for each rating from 1-10.**
 
 Something that should be questioned in our analysis is:
@@ -31,6 +33,7 @@ Something that should be questioned in our analysis is:
 >It looks like the average anime gets scored around 6.5 to 7.5, with exceedingly few being scored below 5 or above 9. This is important to contextualize the rating system on MyAnimeList, and shows that any anime with a score below 5 is likely extremely bad and should be avoided, while animes with a score above 9 stand out by a large amount in a good way and are likely worth watching.
 
 ![EDA Boxplot](images/T-EDA3Box.png)
+
 **EDA Fig. 4: A boxplot of average scores on MyAnimeList**
 
 >This boxplot further explains Fig. 3 and demonstrates again that people rarely tend to give a score of 9 or above **(notice the outliers)**. There are an abundant amount of outliers with low scores around 4 (Minimum). That is proof that more people tend to give a show a very low score (assume below 4) if they're **dissastified** with it rather than give a **very satisfactory** show (assume 9+) a very high score.
@@ -50,6 +53,7 @@ NOTE THAT:
 |MAXIMUM |9 |
 
 ![EDA hist](images/T-EDA1hist.png)
+
 **EDA Fig. 5:  A histogram of the ratings given to animes by their episode count** 
 
 >The histogram displays the message that for a show to have a high user-provided score, it NEEDS to have a substantial amount of Episodes. Notice how the Score *escalates* till the range of 6-7  and then starts *deviating*. The **peak is 1750+** episodes where the score is around 6.5.
@@ -70,6 +74,7 @@ NOTE THAT:
 >This graph above shows a barplot of the average popularity for each type of anime. Here, we can see that on average, TV is the most popular type of anime, as the lower the popularity score is, the better the rating. Other is in second place for popularity, with special and OVA in third and fourth respectively. Movie is the 5th most popular, ONA behind it in 6th, and music being the least popular type on average. 
 
 ![jf1](images/justinf2.PNG)
+
 **Figure 2**
 
 >This scatterplot above shows the relationship between average popularity and average full anime completions for each type of anime. We can see in this plot that TV has the most full completions and highest popularity score. If a line of best fit were to be drawn here, we could see that in general, as popularity decreases (higher rating), we see more full anime completions. This indicates that there is a positive correlation between popularity and full anime completions.
@@ -238,4 +243,6 @@ Of course, variables such as the current status of the show that people keep on 
 
 # Conclusion
 
-To summarize, we found that 
+To summarize, we found that there is a small correlation between an anime's popularity and how many people actually finish watching it in it's entirety, and that TV animes on average are the most popular. As well, light novel adaptations are on average both the most highly rated and popular on average. Finally, shows with episodes in the triple digits tend to have higher scores, and a show with many episodes runs the risk of people losing interest and not finishing it. 
+
+For both anime watchers and anime studios alike, it seems that if they want an anime that is both popular and highly rated, they should look for a TV anime that was adapted from a light novel, and has a triple digit episode count.
